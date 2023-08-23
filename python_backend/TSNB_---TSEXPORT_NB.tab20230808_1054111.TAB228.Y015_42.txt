@@ -1,0 +1,42 @@
+------WebKitFormBoundaryROBXUBS5nlKg1Au6
+Content-Disposition: form-data; name="file"; filename="---TSEXPORT_NB.tab20230808_1054111.TAB"
+Content-Type: application/octet-stream
+
+Time	LD	A103	228.Y015			Prepare Notice of Mediation.	5/1/2023	0.10	L390
+Time	LD	A106	228.Y015			Prepare email to Adjuster regarding outstanding issues.	5/1/2023	0.10	L110
+Time	LD	A104	228.Y015			Receipt and review email from Adjuster regarding outstanding issues.	5/1/2023	0.10	L120
+Time	LD	A104	228.Y015			Receipt and review of Order Scheduling Mediation.	5/4/2023	0.10	L120
+Time	LD	A107	228.Y015			Receipt and review of email from opposing counsel regarding Social Security.Releases.	5/17/2023	0.10	L140
+Time	LD	A107	228.Y015			Prepare email to opposing counsel regarding Social Security.	5/17/2023	0.10	L140
+Time	LD	A107	228.Y015			Receipt and review email from opposing counsel regarding status of Claimant's authorized medical treatment with neurologist.	5/17/2023	0.10	L110
+Time	LD	A107	228.Y015			Prepare email to opposing counsel regarding Claimant's authorized medical treatment with neurologist.	5/17/2023	0.10	L110
+Time	LD	A107	228.Y015			Phone conference with opposing counsel regarding new neurologist for claimant, State Mediation.	5/18/2023	0.20	L110
+Time	LD	A107	228.Y015			Receipt and review of email from opposing counsel regarding new neurologist for claimant, State Mediation.	5/18/2023	0.10	L110
+Time	LD	A106	228.Y015			Prepare email to adjuster regarding new neurologist for claimant, State Mediation.	5/18/2023	0.10	L110
+Time	LD	A106	228.Y015			Receipt and review of email from adjuster regarding authorized treatment with neurosurgeon.	5/18/2023	0.10	L110
+Time	LD	A107	228.Y015			Prepare second email to opposing counsel regarding authorized treatment with neurosurgeon.	5/18/2023	0.10	L110
+Time	LD	A106	228.Y015			Phone conference with Adjuster regarding authorized nuerologist.	5/22/2023	0.10	L110
+Time	LD	A103	228.Y015			Prepare Notice of Mediation.	5/22/2023	0.10	L140
+Time	LD	A107	228.Y015			Receipt and review of email from opposing counsel regarding authorized medical care.	5/22/2023	0.10	L110
+Time	LD	A106	228.Y015			Receipt and review of email from adjuster regarding authorized neurologist.	5/23/2023	0.10	L110
+Time	LD	A106	228.Y015			Prepare email to adjuster regarding authorized neurologist.	5/23/2023	0.10	L110
+Time	LD	A107	228.Y015			Prepare email to opposing counsel regarding authorized neurologist.	5/23/2023	0.10	L110
+Time	LD	A107	228.Y015			Phone conference with opposing counsel regarding authorized neurologist.	5/23/2023	0.20	L110
+Time	LD	A104	228.Y015			Receipt and review of claimant's Notice of Resolution of Issues.	5/24/2023	0.10	L140
+Time	LD	A106	228.Y015			Prepare email to adjuster regarding Notice of Resolution of Issues.	5/24/2023	0.10	L140
+Time	LD	A104	228.Y015			Receipt and review of Order Closing File.	5/25/2023	0.10	L140
+Time	LD	A106	228.Y015			Prepare email to adjuster regarding Order Closing File.	5/25/2023	0.10	L110
+Time	LD	A106	228.Y015			Receipt and review email from adjuster regarding updated medical care.	6/9/2023	0.10	L110
+Time	LD	A106	228.Y015			Prepare email to adjuster regarding updated medical care, discovery status.	6/22/2023	0.10	L110
+Time	LD	A103	228.Y015			Prepare Request for Production.	6/22/2023	0.40	L140
+Time	LD	A106	228.Y015			Receipt and review of email from adjuster regarding status of case.	6/23/2023	0.10	L110
+Time	LD	A106	228.Y015			Phone conference with adjuster regarding medical status of case, discovery.	6/26/2023	0.20	L110
+Time	LD	A106	228.Y015			Prepare email to adjuster regarding summary of conference regarding discovery, medical status, prior claims.	6/26/2023	0.20	L120
+Time	LD	A106	228.Y015			Receipt and review of email from adjuster regarding updated status of case. Includes review of medical record.	7/21/2023	0.10	L120
+Time	LD	A106	228.Y015			Prepare email to adjuster regarding updated status of case, plan of action.	7/21/2023	0.10	L120
+
+------WebKitFormBoundaryROBXUBS5nlKg1Au6
+Content-Disposition: form-data; name="filename"
+
+---TSEXPORT_NB.tab20230808_1054111.TAB
+------WebKitFormBoundaryROBXUBS5nlKg1Au6--

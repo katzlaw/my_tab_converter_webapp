@@ -1,0 +1,38 @@
+------WebKitFormBoundaryCy8bCnrAJJcJc9yW
+Content-Disposition: form-data; name="file"; filename="---TSEXPORT_NB.tab20230808_1054111.TAB"
+Content-Type: application/octet-stream
+
+Time,,,LD,,,A103,,,228.Y015,,,,,Prepare Notice of Mediation.,,,20230501,,,0.10,,,L390
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to Adjuster regarding outstanding issues.,,,20230501,,,0.10,,,L110
+Time,,,LD,,,A104,,,228.Y015,,,,,Receipt and review email from Adjuster regarding outstanding issues.,,,20230501,,,0.10,,,L120
+Time,,,LD,,,A104,,,228.Y015,,,,,Receipt and review of Order Scheduling Mediation.,,,20230504,,,0.10,,,L120
+Time,,,LD,,,A107,,,228.Y015,,,,,Receipt and review of email from opposing counsel regarding Social Security.Releases.,,,20230517,,,0.10,,,L140
+Time,,,LD,,,A107,,,228.Y015,,,,,Prepare email to opposing counsel regarding Social Security.,,,20230517,,,0.10,,,L140
+Time,,,LD,,,A107,,,228.Y015,,,,,Receipt and review email from opposing counsel regarding status of Claimant's authorized medical treatment with neurologist.,,,20230517,,,0.10,,,L110
+Time,,,LD,,,A107,,,228.Y015,,,,,Prepare email to opposing counsel regarding Claimant's authorized medical treatment with neurologist.,,,20230517,,,0.10,,,L110
+Time,,,LD,,,A107,,,228.Y015,,,,,Phone conference with opposing counsel regarding new neurologist for claimant, State Mediation.,,,20230518,,,0.20,,,L110
+Time,,,LD,,,A107,,,228.Y015,,,,,Receipt and review of email from opposing counsel regarding new neurologist for claimant, State Mediation.,,,20230518,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to adjuster regarding new neurologist for claimant, State Mediation.,,,20230518,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Receipt and review of email from adjuster regarding authorized treatment with neurosurgeon.,,,20230518,,,0.10,,,L110
+Time,,,LD,,,A107,,,228.Y015,,,,,Prepare second email to opposing counsel regarding authorized treatment with neurosurgeon.,,,20230518,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Phone conference with Adjuster regarding authorized nuerologist.,,,20230522,,,0.10,,,L110
+Time,,,LD,,,A103,,,228.Y015,,,,,Prepare Notice of Mediation.,,,20230522,,,0.10,,,L140
+Time,,,LD,,,A107,,,228.Y015,,,,,Receipt and review of email from opposing counsel regarding authorized medical care.,,,20230522,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Receipt and review of email from adjuster regarding authorized neurologist.,,,20230523,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to adjuster regarding authorized neurologist.,,,20230523,,,0.10,,,L110
+Time,,,LD,,,A107,,,228.Y015,,,,,Prepare email to opposing counsel regarding authorized neurologist.,,,20230523,,,0.10,,,L110
+Time,,,LD,,,A107,,,228.Y015,,,,,Phone conference with opposing counsel regarding authorized neurologist.,,,20230523,,,0.20,,,L110
+Time,,,LD,,,A104,,,228.Y015,,,,,Receipt and review of claimant's Notice of Resolution of Issues.,,,20230524,,,0.10,,,L140
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to adjuster regarding Notice of Resolution of Issues.,,,20230524,,,0.10,,,L140
+Time,,,LD,,,A104,,,228.Y015,,,,,Receipt and review of Order Closing File.,,,20230525,,,0.10,,,L140
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to adjuster regarding Order Closing File.,,,20230525,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Receipt and review email from adjuster regarding updated medical care.,,,20230609,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to adjuster regarding updated medical care, discovery status.,,,20230622,,,0.10,,,L110
+Time,,,LD,,,A103,,,228.Y015,,,,,Prepare Request for Production.,,,20230622,,,0.40,,,L140
+Time,,,LD,,,A106,,,228.Y015,,,,,Receipt and review of email from adjuster regarding status of case.,,,20230623,,,0.10,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Phone conference with adjuster regarding medical status of case, discovery.,,,20230626,,,0.20,,,L110
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to adjuster regarding summary of conference regarding discovery, medical status, prior claims.,,,20230626,,,0.20,,,L120
+Time,,,LD,,,A106,,,228.Y015,,,,,Receipt and review of email from adjuster regarding updated status of case. Includes review of medical record.,,,20230721,,,0.10,,,L120
+Time,,,LD,,,A106,,,228.Y015,,,,,Prepare email to adjuster regarding updated status of case, plan of action.,,,20230721,,,0.10,,,L120
+
+------WebKitFormBoundaryCy8bCnrAJJcJc9yW--
