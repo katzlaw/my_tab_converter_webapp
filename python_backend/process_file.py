@@ -9,8 +9,6 @@ def replace_date(match):
 def process_tab_content(tab_content, original_file_name):
     try:
 
-        print('hello')
-        
         # Split the tab content into lines
         tab_lines = tab_content.splitlines()
 
@@ -21,21 +19,44 @@ def process_tab_content(tab_content, original_file_name):
         found_id = ""
 
         for line in tab_lines:
-            number_of_slips += 1
-            line = line.replace(",,,,,,Time", "Time")
-            
-            if ",,,,,," in line:
-                miss_suffix = "_miss"
+            if line.startswith(',,,,,,Time'):
+                number_of_slips += 1
+                line = line.replace(",,,,,,Time", "Time")
+                segments = re.split(r',,,|,,,,', line)
+                final_result = []
 
-            line = line.replace(",,,,,,", "\tFFFF\t").replace(",,,,,", "\t\t\t").replace(",,,", "\t")
-            line = re.sub(r'\b(\d{4})(\d{2})(\d{2})\b', replace_date, line)
-            id_pattern = r'\d{3}\.\w{4}'
-            id_match = re.search(id_pattern, line)
-            if id_match:
-                print('i found matter number')
-                found_id = id_match.group()
+                segmentCounter = 0
 
-            modified_content.append(line)
+                for segment in segments:
+                    if not segment.strip(','):  # If the segment is empty or contains only
+                        miss_suffix = '_miss'
+                        final_result.append("FFFF")
+                    else:
+                        final_result.append(segment)
+                        segmentCounter += 1
+                    if (segmentCounter == 4):
+                        result = ",,,,,".join(final_result)
+                    else:
+                        result = ",,,".join(final_result)
+
+                    
+                if ',,,,,,' in result:
+                    miss_suffix = '_miss'
+
+                result = result.replace(",,,,,,", "\tFFFF")
+                result = result.replace(",,,,,", "\t\t\t")
+                result = result.replace(",,,", "\t")
+
+                result = re.sub(r'\b(\d{4})(\d{2})(\d{2})\b', replace_date, result)
+                id_pattern = r'\d{3}\.\w{4}'
+                id_match = re.search(id_pattern, result)
+                if id_match:
+                    print('i found matter number')
+                    found_id = id_match.group()
+
+                modified_content.append(result)
+            else:
+                print('metadata... skip')
 
         # Generate a modified file name
         filename, _ = os.path.splitext(original_file_name)
