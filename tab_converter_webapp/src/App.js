@@ -71,9 +71,7 @@ function App() {
       
       {/* Trigger the download */}
       {downloadLink && (
-        <Button style={{ marginTop: '30px', marginBottom: '10px' }} variant="contained" onClick={() => downloadFile(
-          `https://katz-tab-converter-python-backend.onrender.com${downloadLink}`
-        )}>
+        <Button style={{ marginTop: '30px', marginBottom: '10px' }} variant="contained" onClick={() => downloadFile(downloadLink)}>
           Download Processed File
         </Button>
       )}
