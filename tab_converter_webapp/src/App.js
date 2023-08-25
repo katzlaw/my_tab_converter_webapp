@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import axios from 'axios';
 import './App.css';
 
 function App() {
   const [downloadLink, setDownloadLink] = useState('');
+  const [newConvert, setNewConvert] = useState(false);
 
   // Function to trigger the file processing
   const processFile = async (file) => {
@@ -26,6 +26,7 @@ function App() {
         const downloadUrl = jsonResponse.download_url;
         console.log('Modified File Name:', downloadUrl);
         setDownloadLink(downloadUrl);
+        console.log(downloadLink, 'hehe')
       } else {
         console.error('File processing failed');
       }
@@ -39,6 +40,17 @@ function App() {
     try {
         console.log('print I am about to perform get request')
         window.open(downloadUrl, '_self');
+        setNewConvert(true);
+    } catch (error) {
+        console.error('An error occurred:', error);
+    }
+};
+
+  // Function to trigger the file download
+  const newConvertTrigger = async () => {
+    try {
+        console.log('new convert button')
+        window.location.reload();
     } catch (error) {
         console.error('An error occurred:', error);
     }
@@ -61,6 +73,11 @@ function App() {
       {downloadLink && (
         <Button style={{ marginTop: '30px', marginBottom: '10px' }} variant="contained" onClick={() => downloadFile(downloadLink)}>
           Download Processed File
+        </Button>
+      )}
+      {newConvert && (
+        <Button style={{ marginTop: '10px', marginBottom: '10px' }} variant="contained"onClick={() => newConvertTrigger()}>
+          Convert a New File
         </Button>
       )}
       </header>
