@@ -15,7 +15,7 @@ function App() {
       formData.append('filename', file.name);
       console.log('FormDate:', JSON.stringify(formData));
 
-      const response = await fetch('/api/process_file', {
+      const response = await fetch('https://katz-tab-converter-python-backend.onrender.com/api/process_file', {
         method: 'POST',
         body: formData,
       });
@@ -71,7 +71,9 @@ function App() {
       
       {/* Trigger the download */}
       {downloadLink && (
-        <Button style={{ marginTop: '30px', marginBottom: '10px' }} variant="contained" onClick={() => downloadFile(downloadLink)}>
+        <Button style={{ marginTop: '30px', marginBottom: '10px' }} variant="contained" onClick={() => downloadFile(
+          `https://katz-tab-converter-python-backend.onrender.com${downloadLink}`
+        )}>
           Download Processed File
         </Button>
       )}
